@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d7f0e0;
+}
+
+.add-user {
+    background-color: #7da68f;
+    max-width: 450px;
+    margin: 50px auto;
+    margin-right: 45px;
+    margin-top: 10%;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-user h2 {
+    text-align: center;
+    color: #333;
+}
+
+.add-user form {
+    margin-top: 20px;
+}
+
+.add-user label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.add-user input[type="text"],
+.add-user input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-user button {
+    background-color: #11ec7b;
+    color: #090808;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.add-user button:hover {
+    background-color:rgb(12, 198, 71);
+    color: rgb(16, 15, 15); /* Lighter shade of pink */
+}
+#btn{
+    color:rgb(0, 0, 0);
+    background-color:#0ce784;
+    width: 25%;
+    font-size: 20px;
+    
+    
+}
